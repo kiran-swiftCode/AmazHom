@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CFF1C8207057F500E26FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFF1C7207057F500E26FDD /* AppDelegate.swift */; };
+		18CFF1CA207057F500E26FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFF1C9207057F500E26FDD /* ViewController.swift */; };
+		18CFF1CD207057F500E26FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CFF1CB207057F500E26FDD /* Main.storyboard */; };
+		18CFF1CF207057F500E26FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CFF1CE207057F500E26FDD /* Assets.xcassets */; };
+		18CFF1D2207057F500E26FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CFF1D0207057F500E26FDD /* LaunchScreen.storyboard */; };
+		18E49AE32081E55E00B2A5E2 /* AmazonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E49AE22081E55E00B2A5E2 /* AmazonConstants.swift */; };
+		18E49AE52081E5B700B2A5E2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E49AE42081E5B700B2A5E2 /* APIManager.swift */; };
+		18EBAD972070DA1000DEBF2D /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBAD962070DA1000DEBF2D /* ProductCell.swift */; };
+		18EBAD992070DA8600DEBF2D /* ProductsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBAD982070DA8600DEBF2D /* ProductsList.swift */; };
+		18EBAD9B2070DCC500DEBF2D /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBAD9A2070DCC500DEBF2D /* ProductModel.swift */; };
+		18EBAD9D2070DD4300DEBF2D /* ConfianceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBAD9C2070DD4300DEBF2D /* ConfianceHelper.swift */; };
+		18EBAD9F2070DDC300DEBF2D /* OverviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBAD9E2070DDC300DEBF2D /* OverviewCell.swift */; };
+		18EBADA12070DDE900DEBF2D /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBADA02070DDE900DEBF2D /* CategoriesCell.swift */; };
+		18EBADA32070DEE200DEBF2D /* HomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBADA22070DEE200DEBF2D /* HomeTableView.swift */; };
+		68E0E4380B99A745BC833C84 /* Pods_Amazon_Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643D3469B8CCAB9C69D03820 /* Pods_Amazon_Home.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18CFF1C4207057F500E26FDD /* Amazon Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amazon Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CFF1C7207057F500E26FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18CFF1C9207057F500E26FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18CFF1CC207057F500E26FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CFF1CE207057F500E26FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CFF1D1207057F500E26FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CFF1D3207057F500E26FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E49AE22081E55E00B2A5E2 /* AmazonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonConstants.swift; sourceTree = "<group>"; };
+		18E49AE42081E5B700B2A5E2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		18EBAD962070DA1000DEBF2D /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		18EBAD982070DA8600DEBF2D /* ProductsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsList.swift; sourceTree = "<group>"; };
+		18EBAD9A2070DCC500DEBF2D /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		18EBAD9C2070DD4300DEBF2D /* ConfianceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfianceHelper.swift; sourceTree = "<group>"; };
+		18EBAD9E2070DDC300DEBF2D /* OverviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewCell.swift; sourceTree = "<group>"; };
+		18EBADA02070DDE900DEBF2D /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		18EBADA22070DEE200DEBF2D /* HomeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableView.swift; sourceTree = "<group>"; };
+		4C378C27D4F3D13F6A477073 /* Pods-Amazon Home.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazon Home.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amazon Home/Pods-Amazon Home.debug.xcconfig"; sourceTree = "<group>"; };
+		643D3469B8CCAB9C69D03820 /* Pods_Amazon_Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amazon_Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB98B2A38C022DF9A6BD6A28 /* Pods-Amazon Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazon Home.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amazon Home/Pods-Amazon Home.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CFF1C1207057F500E26FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E0E4380B99A745BC833C84 /* Pods_Amazon_Home.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CFF1BB207057F500E26FDD = {
+			isa = PBXGroup;
+			children = (
+				18CFF1C6207057F500E26FDD /* Amazon Home */,
+				18CFF1C5207057F500E26FDD /* Products */,
+				C3C8D633F539E725ADA46A50 /* Pods */,
+				533C7831C71542D6EAF0BCAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18CFF1C5207057F500E26FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CFF1C4207057F500E26FDD /* Amazon Home.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CFF1C6207057F500E26FDD /* Amazon Home */ = {
+			isa = PBXGroup;
+			children = (
+				18E49AE12081E3A400B2A5E2 /* Modal */,
+				18E49AE02081E37600B2A5E2 /* Support Files */,
+				18E49ADF2081E35D00B2A5E2 /* Views */,
+				18E49ADE2081E2BB00B2A5E2 /* Cells */,
+				18CFF1C9207057F500E26FDD /* ViewController.swift */,
+				18CFF1D3207057F500E26FDD /* Info.plist */,
+				18CFF1CB207057F500E26FDD /* Main.storyboard */,
+				18E49AE42081E5B700B2A5E2 /* APIManager.swift */,
+			);
+			path = "Amazon Home";
+			sourceTree = "<group>";
+		};
+		18E49ADE2081E2BB00B2A5E2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18EBAD962070DA1000DEBF2D /* ProductCell.swift */,
+				18EBAD9E2070DDC300DEBF2D /* OverviewCell.swift */,
+				18EBADA02070DDE900DEBF2D /* CategoriesCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		18E49ADF2081E35D00B2A5E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18EBAD982070DA8600DEBF2D /* ProductsList.swift */,
+				18EBADA22070DEE200DEBF2D /* HomeTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18E49AE02081E37600B2A5E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18EBAD9C2070DD4300DEBF2D /* ConfianceHelper.swift */,
+				18CFF1C7207057F500E26FDD /* AppDelegate.swift */,
+				18CFF1CE207057F500E26FDD /* Assets.xcassets */,
+				18CFF1D0207057F500E26FDD /* LaunchScreen.storyboard */,
+				18E49AE22081E55E00B2A5E2 /* AmazonConstants.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		18E49AE12081E3A400B2A5E2 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				18EBAD9A2070DCC500DEBF2D /* ProductModel.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		533C7831C71542D6EAF0BCAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				643D3469B8CCAB9C69D03820 /* Pods_Amazon_Home.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3C8D633F539E725ADA46A50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C378C27D4F3D13F6A477073 /* Pods-Amazon Home.debug.xcconfig */,
+				DB98B2A38C022DF9A6BD6A28 /* Pods-Amazon Home.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CFF1C3207057F500E26FDD /* Amazon Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CFF1D6207057F500E26FDD /* Build configuration list for PBXNativeTarget "Amazon Home" */;
+			buildPhases = (
+				FA10FF9965DD460999C41825 /* [CP] Check Pods Manifest.lock */,
+				18CFF1C0207057F500E26FDD /* Sources */,
+				18CFF1C1207057F500E26FDD /* Frameworks */,
+				18CFF1C2207057F500E26FDD /* Resources */,
+				53CB82C57A3AD62FA85EF5A7 /* [CP] Embed Pods Frameworks */,
+				A0F6F500DA9270936016160E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amazon Home";
+			productName = "Amazon Home";
+			productReference = 18CFF1C4207057F500E26FDD /* Amazon Home.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CFF1BC207057F500E26FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18CFF1C3207057F500E26FDD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18CFF1BF207057F500E26FDD /* Build configuration list for PBXProject "Amazon Home" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CFF1BB207057F500E26FDD;
+			productRefGroup = 18CFF1C5207057F500E26FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CFF1C3207057F500E26FDD /* Amazon Home */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CFF1C2207057F500E26FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CFF1D2207057F500E26FDD /* LaunchScreen.storyboard in Resources */,
+				18CFF1CF207057F500E26FDD /* Assets.xcassets in Resources */,
+				18CFF1CD207057F500E26FDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53CB82C57A3AD62FA85EF5A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Amazon Home/Pods-Amazon Home-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amazon Home/Pods-Amazon Home-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F6F500DA9270936016160E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amazon Home/Pods-Amazon Home-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA10FF9965DD460999C41825 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amazon Home-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CFF1C0207057F500E26FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EBADA32070DEE200DEBF2D /* HomeTableView.swift in Sources */,
+				18EBAD9D2070DD4300DEBF2D /* ConfianceHelper.swift in Sources */,
+				18EBAD972070DA1000DEBF2D /* ProductCell.swift in Sources */,
+				18EBAD992070DA8600DEBF2D /* ProductsList.swift in Sources */,
+				18E49AE52081E5B700B2A5E2 /* APIManager.swift in Sources */,
+				18CFF1CA207057F500E26FDD /* ViewController.swift in Sources */,
+				18E49AE32081E55E00B2A5E2 /* AmazonConstants.swift in Sources */,
+				18CFF1C8207057F500E26FDD /* AppDelegate.swift in Sources */,
+				18EBADA12070DDE900DEBF2D /* CategoriesCell.swift in Sources */,
+				18EBAD9B2070DCC500DEBF2D /* ProductModel.swift in Sources */,
+				18EBAD9F2070DDC300DEBF2D /* OverviewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18CFF1CB207057F500E26FDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CFF1CC207057F500E26FDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CFF1D0207057F500E26FDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CFF1D1207057F500E26FDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CFF1D4207057F500E26FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CFF1D5207057F500E26FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CFF1D7207057F500E26FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C378C27D4F3D13F6A477073 /* Pods-Amazon Home.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JT426SNB49;
+				INFOPLIST_FILE = "Amazon Home/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Amazon-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CFF1D8207057F500E26FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB98B2A38C022DF9A6BD6A28 /* Pods-Amazon Home.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JT426SNB49;
+				INFOPLIST_FILE = "Amazon Home/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Amazon-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CFF1BF207057F500E26FDD /* Build configuration list for PBXProject "Amazon Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFF1D4207057F500E26FDD /* Debug */,
+				18CFF1D5207057F500E26FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CFF1D6207057F500E26FDD /* Build configuration list for PBXNativeTarget "Amazon Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFF1D7207057F500E26FDD /* Debug */,
+				18CFF1D8207057F500E26FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CFF1BC207057F500E26FDD /* Project object */;
+}
